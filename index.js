@@ -1,7 +1,19 @@
-//Reference types- arrays, objects and functions
+//functions 
+//performing a task
+function greet(name, lastName){
+    console.log('Hello '+name +' ' + lastName);
+}
 
-//arrays - is an object
-let selectedColors = ['red', 'blue'];
-selectedColors[2]= '1';
-console.log(selectedColors[0]);
-console.log(selectedColors.length);
+//calculating a value 
+function square(number){
+  return number * number;
+}
+
+
+greet('John', 'Doe'); 
+greet('Mary', 'Joy'); 
+
+let number = square(2);
+console.log(number);
+console.log(square(2));
+
